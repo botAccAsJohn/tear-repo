@@ -6,6 +6,7 @@ app.use(express.json());
 
 // Endpoint 1: Home Route
 app.get("/", (req, res) => {
+    console.log("hello")
     res.send("Welcome to the Express Docker App!");
 });
 
