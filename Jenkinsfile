@@ -1,7 +1,7 @@
 @Library("echo-cmd") _
 
 pipeline{
-    agent any// {label "vinod"}
+    agent {label "vinod"}
     stages{
         stage("calling the hello function"){
             steps{
